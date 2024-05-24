@@ -1,5 +1,5 @@
 const pool = require("./config.cjs");
-const id = 1
+const id = process.env.id
 async function getMenu() {
     const connection = await pool.getConnection();
     try {
