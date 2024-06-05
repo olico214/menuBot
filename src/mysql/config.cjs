@@ -4,7 +4,7 @@ let pool;
 
 try {
   pool = mysql.createPool({
-    host: '195.179.239.51',
+    host: '193.203.166.182',
     user: 'u408972741_notify',
     database: 'u408972741_notify',
     password: 'P$7CL>WVv3',
